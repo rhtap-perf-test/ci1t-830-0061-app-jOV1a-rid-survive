@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-asj8
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0061-tenant/ci1t-830-0061-app/devfile-sample-asj8@sha256:7bad7b78dfc121b1f9c4146b5988661b4446095ce64483ef760c38d06933a55d
         name: my-nodejs
         ports:
         - containerPort: 3001
